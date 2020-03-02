@@ -10,13 +10,8 @@ Forked from [an unmaintained package](wonsikin/react-native-barcode-builder) tha
 #### Step 1
 
 Install `react-native-barcode-builder`:
-
-    npm install react-native-barcode-builder --save
     
-or
-    
-    yarn add react-native-barcode-builder
-
+    yarn add https://github.com/chris-muller/react-native-barcode-builder.git
 
 #### Step 2
 
