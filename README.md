@@ -3,21 +3,22 @@
 
 React Native component to generate barcodes. Uses [JsBarcode](https://github.com/lindell/JsBarcode) for encoding of data.
 
+Forked from [an unmaintained package](wonsikin/react-native-barcode-builder) that used a removed dependency from `react-native`.
+
 ## Getting started
 
 #### Step 1
 
-Link React ART; open the Xcode project, and drag `ART.xcodeproj` from `node_modules/react-native/Libraries/ART/` into the `Libraries` group in Xcode.
-Then select the root project and select "Build Phases" from the center view. There will be a section called "Link Binary With Libraries", expand it, press the + and select `libART.a`.
-
-#### Step 2
-
 Install `react-native-barcode-builder`:
 
     npm install react-native-barcode-builder --save
+    
+or
+    
+    yarn add react-native-barcode-builder
 
 
-#### Step 3
+#### Step 2
 
 Start using the component
 
